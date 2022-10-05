@@ -27,3 +27,47 @@ body{
     color:#3F4662;
     font-size: 30px;
 }
+
+form{
+    position: relative;
+    width:50vw;
+    margin: 32px auto 50px auto;
+    background:white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 7px rgb(128,128,128);
+}
+
+form input{
+    width:100%;
+    border:none;
+    padding:4px 10px;
+    margin-bottom: 10px;
+    outline:none;
+    font-size: 2rem;
+    resize: none;
+}
+
+form textarea{
+    width:100%;
+    border:none;
+    padding:4px 10px;
+    margin-bottom: 15px;
+    outline:none;
+    font-size: 1.5rem;
+    resize: none;
+}
+
+.note{
+    background-color: white;
+    width:250px;
+    border-radius: 10px;
+    box-shadow: 0 1px 7px rgba(128, 128, 128, 0.351);
+    padding:10px;
+    margin: 15px;
+    float: left;
+}
+
+.note h1{
+    
+}
