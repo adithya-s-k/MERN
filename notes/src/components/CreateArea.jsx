@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
+import {IoIosAdd} from 'react-icons/io'
 
-function CreateArea(props){
+function CreateArea({onAdd}){
 
     const [note, setNote] = useState({
         title:"",
@@ -18,9 +19,14 @@ function CreateArea(props){
         })
     }
 
-    function submitButton(i){
-        i.preventDefault()
-        console.log(i.target)
+    function submitButton(event){
+        onAdd(note);
+        setNote({
+            title:"",
+            content:""
+        })
+        event.preventDefault()
+        
     }
 
     return(
@@ -41,7 +47,7 @@ function CreateArea(props){
                         onChange={handleChange} >
                     </textarea>
                 </p>
-                <button onClick={submitButton}>Add</button>
+                <button onClick={submitButton}><IoIosAdd size={35} /></button>
             </form>
         </div>
     );

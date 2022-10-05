@@ -80,6 +80,16 @@ form textarea{
     word-wrap: break-word;
 }
 
+.note button{
+    position: relative;
+    float:right;
+    color: #3F4662;
+    border:none;
+    background:none;
+    cursor: pointer;
+    outline:none;
+}
+
 form button{
     position:absolute;
     display: flex;
@@ -96,4 +106,18 @@ form button{
     box-shadow: 0 1px 3px rgb(165,165,165);
     cursor:pointer;
     outline:none;
+}
+
+.mainArea{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Count{
+    position: relative;
+    margin-top:10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
