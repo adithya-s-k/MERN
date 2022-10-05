@@ -69,5 +69,13 @@ form textarea{
 }
 
 .note h1{
-    
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+.note p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
