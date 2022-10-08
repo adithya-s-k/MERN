@@ -1,1 +1,0 @@
-# A BMI based calculator
